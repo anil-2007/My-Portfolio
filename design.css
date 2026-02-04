@@ -576,7 +576,7 @@ footer i:hover{
         min-width: 300px;
     }
     input{
-        min-width: 180px;
+        max-width: 240px;
     }
     textarea{
         max-width: 240px;
