@@ -266,7 +266,7 @@ main{
     font-size: 2.5rem;
 }
 .section4 h2{
-   background: linear-gradient(to bottom,#E6C229,#D97706);
+   background: linear-gradient(to right,#E6C229,#D97706);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
@@ -304,7 +304,8 @@ main{
     transition: box-shadow 0.4s ease-in-out;
 }
 .project-card:hover{
-    box-shadow: 0px 0px 23px rgb(101, 101, 101);
+    /* box-shadow: 0px 0px 23px rgb(101, 101, 101); */
+    box-shadow: 0px 0px 23px rgb(154, 138, 62);
 }
 .pro-details{
     padding: 20px;
@@ -368,7 +369,7 @@ main{
 }
 .contact-box{
     margin: auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -377,12 +378,12 @@ main{
 }
 .contact-box1{
     max-width: 500px;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     margin-right: auto;
 }
 .contact-box2{
     margin-left: auto;
-    /* border: 3px solid blue; */
+    border: 3px solid blue;
     min-width: 500px;
     display: flex;
     justify-content: center;
@@ -392,8 +393,19 @@ main{
     /* flex-direction: column; */
     /* justify-content: center; */
 }
-form{
-    /* border: 1px solid rgb(255, 255, 255); */
+form {
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: box-shadow 0.5s ease-in-out;
+  border-left-color: #E6C229;
+  border-top-color: #E6C229;
+  border-right-color: #D97706;
+  border-bottom-color: #D97706;
+}
+
+form:hover{
+    box-shadow: 0px 0px 30px rgb(154, 138, 62);
 }
 .admin{
     display: flex;
@@ -425,7 +437,7 @@ input{
     padding: 16px 20px;
     border-radius: 10px;
     background-color: #121212;
-    border: 1px solid rgba(139, 139, 139, 0.5);
+    border: 1px solid rgba(157, 157, 157,0.7);
     min-width: 300px;
     color: white;
 }
@@ -433,7 +445,7 @@ textarea{
     padding: 16px 20px;
     border-radius: 10px;
     background-color: #121212;
-    border: 1px solid rgba(139, 139, 139, 0.5);
+    border: 1px solid rgba(157, 157, 157, 0.7);
     color: white;
 }
 .send-button{
@@ -550,6 +562,7 @@ footer i:hover{
     }
     form{
         max-width: 250px;
+        padding: 30px;
     }
     .send-button{
         padding: 12px 24px;
@@ -557,4 +570,5 @@ footer i:hover{
     .viewprojects{
         padding: 13px 26px;
     }
+    
 }
