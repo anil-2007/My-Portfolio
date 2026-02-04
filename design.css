@@ -478,7 +478,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 footer i{
     color: #8c8c8c;
@@ -573,7 +573,7 @@ footer i:hover{
 }
 @media (max-width: 500px){
     form{
-        max-width: 240px;
+        max-width: 270px;
     }
     input{
         min-width: 180px;
