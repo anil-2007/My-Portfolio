@@ -188,6 +188,8 @@ main{
     color: #8c8c8c;
     scroll-margin-top: 57px;
  }
+
+
  .expertise-cards{
     display: flex;
     justify-content: center;
@@ -476,9 +478,10 @@ hr {
 }
 .copy{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
-    margin-bottom: 11px;
+    margin-bottom: 10px;
 }
 footer i{
     color: #8c8c8c;
@@ -576,10 +579,9 @@ footer i:hover{
         min-width: 300px;
     }
     input{
-        max-width: 200px;
+        max-width: 240px;
     }
     textarea{
         max-width: 240px;
     }
 }
-
